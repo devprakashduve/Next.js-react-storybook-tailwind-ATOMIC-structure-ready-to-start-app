@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Eye from "../../../public/icons/eye.svg";
+import Eye from "/public/icons/eye.svg";
 
 const Card = () => {
   return (

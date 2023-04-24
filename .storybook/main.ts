@@ -17,7 +17,7 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
-  staticDirs: [{ from: '../public', to: '/public' }],
+  staticDirs: ['../public'],
   core: {
     builder: '@storybook/builder-webpack5',
   },

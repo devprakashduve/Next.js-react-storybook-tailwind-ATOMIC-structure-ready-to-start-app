@@ -8,7 +8,7 @@
     "yarn": "please-use-npm"
   },
   "scripts": {
-    "dev:all": "concurrently \"npm run lint:fix\" \"npm run prettier:fix\" \"npm run dev\" \"npm run sass\" \"npm run storybook\"",
+    "dev:all": "concurrently \"npm run lint:fix\" \"npm run prettier:fix\"  \"npm run sass\" \"npm run storybook\" \"npm run dev\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
