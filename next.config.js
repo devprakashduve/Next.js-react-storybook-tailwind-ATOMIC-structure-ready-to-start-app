@@ -6,12 +6,8 @@ const nextConfig = {
       test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
       use: [{ loader: '@svgr/webpack', options: { icon: true } }],
-    },
-    {
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ['@svgr/webpack', 'url-loader'],
-    })
+    }
+    )
 
     return config
   },
