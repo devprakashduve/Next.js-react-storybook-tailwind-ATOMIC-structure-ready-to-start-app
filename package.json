@@ -8,12 +8,13 @@
     "yarn": "please-use-npm"
   },
   "scripts": {
+    "dev:all": "concurrently \"npm run lint:fix\" \"npm run prettier:fix\" \"npm run dev\" \"npm run sass\" \"npm run storybook\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "npx prettier src test --check",
+    "prettier": "npx prettier src components --check",
     "prettier:fix": "npm run prettier -- --write",
     "sass": "sass -w src/styles/:public/css/",
     "prepare": "husky install",
@@ -27,6 +28,7 @@
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
+    "concurrently": "^8.0.1",
     "eslint-config-next": "13.3.1",
     "eslint-plugin-storybook": "^0.6.11",
     "next": "13.3.1",
