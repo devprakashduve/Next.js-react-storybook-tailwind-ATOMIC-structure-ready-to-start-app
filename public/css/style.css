@@ -1,0 +1,5 @@
+body {
+  @apply h-screen bg-gradient-to-b from-lime-100 via-white to-white;
+}
+
+/*# sourceMappingURL=style.css.map */

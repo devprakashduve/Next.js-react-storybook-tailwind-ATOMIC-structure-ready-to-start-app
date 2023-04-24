@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply h-screen bg-gradient-to-b from-lime-100 via-white to-white;
+}
+
+/*# sourceMappingURL=globals.css.map */
