@@ -1,5 +1,5 @@
 import type { StorybookConfig } from '@storybook/nextjs';
-
+const path = require('path');
 
 const config: StorybookConfig = {
   stories: [
@@ -37,6 +37,10 @@ const config: StorybookConfig = {
     config.module?.rules?.push({
       test: /\.svg$/,
       use: ['@svgr/webpack']
+    },{
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+      include: path.resolve(__dirname, '../'),
     })
 
     return config
