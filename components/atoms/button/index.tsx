@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { ButtonProps } from "./_button.interface";
 
-const index = () => {
+const Button = (props: ButtonProps) => {
   return (
-    <button>Test</button>
-  )
-}
+    <button
+      className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-lime-600 hover:text-lime-500"
+      {...props}
+    >
+      {props.children}
+    </button>
+  );
+};
 
-export default index
+export default Button;

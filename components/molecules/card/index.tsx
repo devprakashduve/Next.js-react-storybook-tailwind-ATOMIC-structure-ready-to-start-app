@@ -1,17 +1,12 @@
 import React from "react";
-import Image from "next/image";
+
 import Eye from "/public/icons/eye.svg";
+import Img from "../../atoms/img";
 
 const Card = () => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <Image
-        src="/images/card-top.jpg"
-        className="w-full"
-        width={300}
-        height={200}
-        alt={""}
-      />
+      <Img src={"/images/image-1.jpg"} alt={""} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
         <p className="text-gray-700 text-base">

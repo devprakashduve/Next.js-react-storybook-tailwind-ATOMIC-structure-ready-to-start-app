@@ -12,10 +12,10 @@ const meta: Meta<typeof Card> = {
 export default meta;
 
 type Story = StoryObj<typeof Card>;
-const Template: Story = (args:CardProps) => <Card {...args} />;
+const Template: Story = (args: CardProps) => <Card {...args} />;
 
 export const Primary: Story = Template.bind({});
 
-Primary.args= {
-    title: "Card",
-  }
+Primary.args = {
+  title: "Card",
+};

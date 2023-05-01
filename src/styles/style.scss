@@ -1,3 +1,50 @@
-body {
-  @apply h-screen bg-gradient-to-b from-lime-100 via-white to-white;
+.main-header {
+  @apply bg-gradient-to-b from-lime-200  to-white border border-lime-300;
+  z-index: 9
+}
+.main-bg {
+  @apply bg-gradient-to-b from-lime-200  to-white;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
 }

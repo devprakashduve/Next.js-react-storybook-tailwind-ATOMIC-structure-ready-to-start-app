@@ -1,4 +1,5 @@
-export interface ButtonProps{
-    label:string
-    onClick:()=>void
+export interface ButtonProps {
+  children: JSX.Element | string;
+  onClick?: () => void;
+  classes?: string;
 }
