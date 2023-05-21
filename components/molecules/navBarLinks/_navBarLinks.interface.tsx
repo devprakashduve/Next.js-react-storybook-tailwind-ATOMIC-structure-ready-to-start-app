@@ -1,4 +1,4 @@
-export interface NavBarLinksProps{
-    Label:string;
-    linkUrl:string;
+export interface NavBarLinksProps {
+  Label: string;
+  linkUrl: string;
 }

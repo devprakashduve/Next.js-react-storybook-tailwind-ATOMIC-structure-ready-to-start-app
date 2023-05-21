@@ -48,7 +48,7 @@ const Header = (props: HeaderProps) => {
         </div>
 
         <Popover.Group className="hidden md:flex md:gap-x-12 ">
-       <NavBarLinks/>
+          <NavBarLinks />
         </Popover.Group>
 
         <div className="hidden md:flex md:flex-1 md:justify-end">
@@ -89,7 +89,6 @@ const Header = (props: HeaderProps) => {
                     <ul className="absolute right-0 mt-2 w-48 py-2  rounded shadow-lg">
                       <li className="main-bg m-2 p-4">
                         <p>
-                          
                           Welcome!
                           <br /> {session && session?.user?.name}
                         </p>
@@ -137,14 +136,13 @@ const Header = (props: HeaderProps) => {
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
             >
-              
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-              <NavBarLinks/>
+                <NavBarLinks />
                 {session && session?.user?.name ? (
                   <Anchor
                     href="#"

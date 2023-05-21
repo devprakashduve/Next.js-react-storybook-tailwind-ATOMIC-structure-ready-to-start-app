@@ -1,6 +1,11 @@
 .main-header {
   @apply bg-gradient-to-b from-lime-200  to-white border border-lime-300;
-  z-index: 9
+  z-index: 9;
+}
+
+canvas {
+  width: 1000px;
+  height: 1000px;
 }
 .main-bg {
   @apply bg-gradient-to-b from-lime-200  to-white;

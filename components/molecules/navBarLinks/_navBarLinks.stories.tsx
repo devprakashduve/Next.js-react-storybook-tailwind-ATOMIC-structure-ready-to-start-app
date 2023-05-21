@@ -17,6 +17,6 @@ const Template: Story = (args: NavBarLinksProps) => <NavBarLinks {...args} />;
 export const Primary: Story = Template.bind({});
 
 Primary.args = {
-    Label:"test",
-    linkUrl:"test"
+  Label: "test",
+  linkUrl: "test",
 };

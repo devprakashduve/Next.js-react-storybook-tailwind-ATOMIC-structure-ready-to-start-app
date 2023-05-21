@@ -15,7 +15,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "three/examples/jsm/libs/tween.module.min": ["../typings/tween.js"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
