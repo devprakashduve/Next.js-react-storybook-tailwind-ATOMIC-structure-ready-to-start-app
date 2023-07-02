@@ -11,7 +11,7 @@ const meta: Meta<typeof Footer> = {
 export default meta;
 
 type Story = StoryObj<typeof Footer>;
-const Template: Story = (args: FooterProps) => <Footer {...args} />;
+const Template: any = (args: any) => <Footer {...args} />;
 
 export const Primary: Story = Template.bind({});
 

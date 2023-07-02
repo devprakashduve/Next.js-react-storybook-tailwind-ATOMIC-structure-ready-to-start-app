@@ -12,7 +12,7 @@ const meta: Meta<typeof Img> = {
 export default meta;
 
 type Story = StoryObj<typeof Img>;
-const Template: Story = (args: ImgProps) => <Img {...args} />;
+const Template: any = (args: ImgProps) => <Img {...args} />;
 
 export const Primary: Story = Template.bind({});
 

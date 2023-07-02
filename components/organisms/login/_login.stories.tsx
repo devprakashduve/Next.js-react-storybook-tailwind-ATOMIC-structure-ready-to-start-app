@@ -11,7 +11,7 @@ const meta: Meta<typeof Login> = {
 export default meta;
 
 type Story = StoryObj<typeof Login>;
-const Template: Story = (args: LoginProps) => <Login {...args} />;
+const Template: any = (args: any) => <Login {...args} />;
 
 export const Primary: Story = Template.bind({});
 

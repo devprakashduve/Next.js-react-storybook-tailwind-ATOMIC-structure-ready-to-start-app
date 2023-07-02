@@ -12,7 +12,7 @@ const meta: Meta<typeof Button> = {
 export default meta;
 
 type Story = StoryObj<typeof Button>;
-const Template: Story = (args: ButtonProps) => <Button {...args} />;
+const Template: any = (args: ButtonProps) => <Button {...args} />;
 
 export const Primary: Story = Template.bind({});
 

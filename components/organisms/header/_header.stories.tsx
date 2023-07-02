@@ -11,7 +11,7 @@ const meta: Meta<typeof Header> = {
 export default meta;
 
 type Story = StoryObj<typeof Header>;
-const Template: Story = (args: HeaderProps) => <Header {...args} />;
+const Template: any = (args: HeaderProps) => <Header {...args} />;
 
 export const Primary: Story = Template.bind({});
 

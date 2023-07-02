@@ -12,7 +12,7 @@ const meta: Meta<typeof Banner> = {
 export default meta;
 
 type Story = StoryObj<typeof Banner>;
-const Template: Story = (args: BannerProps) => <Banner {...args} />;
+const Template: any = (args: BannerProps) => <Banner {...args} />;
 
 export const Primary: Story = Template.bind({});
 

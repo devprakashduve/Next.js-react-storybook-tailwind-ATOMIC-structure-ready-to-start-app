@@ -12,7 +12,7 @@ const meta: Meta<typeof LoginWithGoogle> = {
 export default meta;
 
 type Story = StoryObj<typeof LoginWithGoogle>;
-const Template: Story = (args: loginWithGoogleProps) => (
+const Template: any = (args: loginWithGoogleProps) => (
   <LoginWithGoogle {...args} />
 );
 

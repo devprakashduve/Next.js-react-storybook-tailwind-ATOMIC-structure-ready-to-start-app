@@ -12,7 +12,7 @@ const meta: Meta<typeof NavBarLinks> = {
 export default meta;
 
 type Story = StoryObj<typeof NavBarLinks>;
-const Template: Story = (args: NavBarLinksProps) => <NavBarLinks {...args} />;
+const Template: any = (args: any) => <NavBarLinks {...args} />;
 
 export const Primary: Story = Template.bind({});
 

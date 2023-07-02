@@ -11,7 +11,7 @@ const meta: Meta<typeof Anchor> = {
 export default meta;
 
 type Story = StoryObj<typeof Anchor>;
-const Template: Story = (args: AnchorProps) => <Anchor {...args} />;
+const Template: any = (args: AnchorProps) => <Anchor {...args} />;
 
 export const Default: Story = Template.bind({});
 
