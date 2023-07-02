@@ -11,7 +11,7 @@ const meta: Meta<typeof Accordian> = {
 export default meta;
 
 type Story = StoryObj<typeof Accordian>;
-const Template: Story = (args: AccordianProps) => <Accordian {...args} />;
+const Template: any = (args: AccordianProps) => <Accordian {...args} />;
 
 export const Default: Story = Template.bind({});
 
