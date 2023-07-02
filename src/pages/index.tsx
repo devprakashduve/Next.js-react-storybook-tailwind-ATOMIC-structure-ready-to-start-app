@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Header title={""} />
-      <Banner/>
+      <Banner imgSrc={""}/>
       <div className="h-screen">
         <p>
           {session && session?.user?.email
